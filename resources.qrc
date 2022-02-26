@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>res/AI.png</file>
+        <file>res/AIp.png</file>
+        <file>res/dwell.png</file>
+        <file>res/dwellp.png</file>
+        <file>res/GEO.png</file>
+        <file>res/GEOp.png</file>
+        <file>res/pause.png</file>
+        <file>res/play.png</file>
+        <file>res/settings.png</file>
+        <file>res/drag.png</file>
+        <file>res/exit.png</file>
+        <file>res/app.png</file>
+        <file>res/hide.png</file>
+        <file>res/show.png</file>
+        <file>res/click1.png</file>
+        <file>res/click2.png</file>
+        <file>res/clickR.png</file>
+        <file>res/click1p.png</file>
+        <file>res/click2p.png</file>
+        <file>res/clickRp.png</file>
+        <file>res/dragp.png</file>
+        <file>res/icon.ico</file>
+        <file>res/folder.png</file>
+    </qresource>
+    <qresource prefix="/translations">
+        <file>translation_ru.qm</file>
+        <file>translation_ua.qm</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>res/click.wav</file>
+    </qresource>
+</RCC>
