@@ -58,12 +58,10 @@ CONFIG += link_pkgconfig
 PKGCONFIG += opencv
 }
 unix: macx{
-#INCLUDEPATH += "/usr/local/include"
-#LIBS += -L"/usr/local/lib" \
-#-lopencv_world
-
-
+CONFIG+= staticlib
+CONFIG += c++11 app_bundle
 QT_CONFIG -= no-pkg-config
+#CONFIG-=app_bundle
 CONFIG  += link_pkgconfig
 PKGCONFIG += opencv4
 INCLUDEPATH += /usr/local/include/# depends on how you installed
